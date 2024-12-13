@@ -1,0 +1,186 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Seção Hero */
+.hero {
+    background: linear-gradient(135deg, #6a1b9a, #8e24aa);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Seção Benefícios */
+.benefits {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.benefit {
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.benefit h3 {
+    font-size: 1.8em;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+.benefit p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Seção de Produtos */
+.produtos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.produtos-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.produto:hover {
+    transform: translateY(-10px);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.produto h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #444;
+}
+
+.produto p {
+    font-size: 1rem;
+    color: #777;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.produto .preco {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e53935;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+/* Seção Testemunhos */
+.testimonials {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    text-align: left;
+    position: relative;
+}
+
+.testimonial-content p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimonial-name {
+    font-size: 1em;
+    font-weight: bold;
+    color: purple;
+    text-align: right;
+}
+
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 1em;
+    margin: 5px 0;
+}
